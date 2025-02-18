@@ -19,49 +19,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"lya0.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="burp插件的简单入门">
+    <meta name="description" content="JNDI Bypass">
 <meta property="og:type" content="article">
-<meta property="og:title" content="burp插件的简单入门">
+<meta property="og:title" content="JNDI Bypass">
 <meta property="og:url" content="https://lya0.github.io/2022/05/20/burp%E6%8F%92%E4%BB%B6/index.html">
 <meta property="og:site_name" content="Lya0">
-<meta property="og:description" content="burp插件的简单入门">
+<meta property="og:description" content="JNDI Bypass">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192349640.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192313628.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192332788.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192334827.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192335661.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192337234.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192341950.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192343359.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192347512.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192348942.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192236538.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192237479.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192238723.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192238666.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192252231.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200035162.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200037353.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200039124.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200038584.png">
-<meta property="og:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200039018.png">
 <meta property="article:published_time" content="2022-05-20T07:26:00.000Z">
-<meta property="article:modified_time" content="2022-05-19T16:41:49.191Z">
+<meta property="article:modified_time" content="2025-02-18T12:15:21.248Z">
 <meta property="article:author" content="Lya0">
-<meta property="article:tag" content="渗透测试">
-<meta property="article:tag" content="burp">
+<meta property="article:tag" content="web安全">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192349640.png">
 
 
 <link rel="canonical" href="https://lya0.github.io/2022/05/20/burp%E6%8F%92%E4%BB%B6/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://lya0.github.io/2022/05/20/burp%E6%8F%92%E4%BB%B6/","path":"2022/05/20/burp插件/","title":"burp插件的简单入门"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://lya0.github.io/2022/05/20/burp%E6%8F%92%E4%BB%B6/","path":"2022/05/20/burp插件/","title":"JNDI Bypass"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>burp插件的简单入门 | Lya0</title>
+<title>JNDI Bypass | Lya0</title>
   
 
 
@@ -134,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#burp%E6%8F%92%E4%BB%B6%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8"><span class="nav-number">1.</span> <span class="nav-text">burp插件简单入门</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">简单介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AD%94%E6%94%B9"><span class="nav-number">1.2.</span> <span class="nav-text">魔改</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#burp%E6%8F%92%E4%BB%B6%E8%B0%83%E8%AF%95"><span class="nav-number">2.</span> <span class="nav-text">burp插件调试</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#JNDI-Bypass"><span class="nav-number">1.</span> <span class="nav-text">JNDI Bypass</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -147,18 +125,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -203,12 +181,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="burp插件的简单入门 | Lya0">
+      <meta itemprop="name" content="JNDI Bypass | Lya0">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          burp插件的简单入门
+          JNDI Bypass
         </h1>
 
         <div class="post-meta-container">
@@ -218,9 +196,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-05-20 15:26:00 / 修改时间：00:41:49" itemprop="dateCreated datePublished" datetime="2022-05-20T15:26:00+08:00">2022-05-20</time>
+      <time title="创建时间：2022-05-20 15:26:00" itemprop="dateCreated datePublished" datetime="2022-05-20T15:26:00+08:00">2022-05-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-02-18 20:15:21" itemprop="dateModified" datetime="2025-02-18T20:15:21+08:00">2025-02-18</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -228,7 +212,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">渗透测试</span></a>
+          <a href="/categories/web%E5%AE%89%E5%85%A8/" itemprop="url" rel="index"><span itemprop="name">web安全</span></a>
         </span>
     </span>
 
@@ -241,118 +225,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>burp插件的简单入门</p>
+    <div class="post-body" itemprop="articleBody"><p>JNDI Bypass</p>
 <span id="more"></span>
 
-<h2 id="burp插件简单入门"><a href="#burp插件简单入门" class="headerlink" title="burp插件简单入门"></a>burp插件简单入门</h2><h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><p>可以在burp直接下载接口说明和接口</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192349640.png" alt="image-20220519234957408"></p>
-<p>关于入门，可以看一些文章，这里就用hackbar举例</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/d3vilbug/HackBar">https://github.com/d3vilbug/HackBar</a></p>
-<p>把文件下下来，然后分析代码，在我看来如果能借助别人的代码改改达到自己的需求，就没必要去写了，我开始的想法就是写一个burp的笔记本，刚好hackbar就非常适合我的需求。</p>
-<p>我们这边举三个代码来理解</p>
-<p>首先是<code>BurpExtender</code></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class BurpExtender implements IBurpExtender, IContextMenuFactory</span><br></pre></td></tr></table></figure>
-
-<p><strong>简单来说就是需要什么模块就先去注册模块，然后再调用</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">IBurpExtender：在编写Burp拓展时必须要使用的类，该类的作用是在Burp上正确注册，注册方法是使用registerExtenderCallbacks()方法，传递callbacks参数</span><br><span class="line"></span><br><span class="line">IContextMenuFactory：此模块用来拓展右键菜单功能首先使用registerContextMenuFactory()方法注册菜单拓展，然后建立createMenuItem()方法创建菜单，使用add()函数，配合JmenuItem()方法设置菜单信息，在此方法内定义actionPerformed参数设置行动函数。</span><br></pre></td></tr></table></figure>
-
-<p>burp的接口可以自行的去官网查看，我觉得其实代码写起来比较简单，相反要是实现一些图形化感觉比较难一些</p>
-<p><a target="_blank" rel="noopener" href="https://portswigger.net/burp/extender/">https://portswigger.net/burp/extender/</a></p>
-<p>可以看这位博主的解释的比较全</p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_47767605/article/details/106237259">https://blog.csdn.net/weixin_47767605/article/details/106237259</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/wjrblogs/p/15705552.html">https://www.cnblogs.com/wjrblogs/p/15705552.html</a></p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192313628.png" alt="image-20220519231332500"></p>
-<p>我们知道接口的含义，所以就容易理解代码，<code>registerExtenderCallbacks</code>注册模块初始化，<code>createMenuItems</code>创建菜单</p>
-<p>然后看hackbar写的通用方法</p>
-<p>可以看到<code>add_MenuItem_and_listenerd</code>的逻辑就是添加菜单和listener</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//一级菜单:</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> JMenu <span class="title function_">add_MenuItem_and_listener</span><span class="params">(JMenu menu, String[] itemList, Object actionListener)</span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; itemList.length; i++)&#123;</span><br><span class="line">            <span class="type">JMenuItem</span> <span class="variable">item</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">JMenuItem</span>(itemList[i]);</span><br><span class="line">            item.addActionListener((ActionListener) actionListener);</span><br><span class="line">            menu.add(item);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> menu;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>举个例子</p>
-<p>我们看webshell这里，可以看到他只注册了一级菜单，所以这个时候用<code>add_MenuItem_and_listenerd</code>进行一个注册</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192332788.png" alt="image-20220519233258358"></p>
-<p><code>Create_Main_Menu</code>创建主菜单，然后再添加子菜单，如果需要二级菜单就用这个</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//二级菜单: 创建主菜单，并加入子菜单    </span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> JMenu <span class="title function_">Create_Main_Menu</span><span class="params">(JMenu MainMenu, String[] MainMenuItems, String[][] SubMenuItems, Object actionListener)</span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i &lt; MainMenuItems.length; i++)&#123;</span><br><span class="line">            <span class="type">JMenu</span> <span class="variable">menu</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">JMenu</span>(MainMenuItems[i]);</span><br><span class="line">            menu = add_MenuItem_and_listener(menu, SubMenuItems[i], actionListener);</span><br><span class="line">            <span class="keyword">if</span>(MainMenuItems[i].equals(<span class="string">&quot;Basic Statements&quot;</span>))&#123;</span><br><span class="line">                MainMenu.add(<span class="keyword">new</span> <span class="title class_">JSeparator</span>());</span><br><span class="line">                MainMenu.add(menu);</span><br><span class="line">                MainMenu.add(<span class="keyword">new</span> <span class="title class_">JSeparator</span>());</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                MainMenu.add(menu);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> MainMenu;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>举个例子</p>
-<p>可以看到<code>LFIMenuItems</code>需要二级菜单</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192334827.png" alt="image-20220519233434671"></p>
-<p><code>prompt_and_validate_input</code>，接受用户的输入</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">prompt_and_validate_input</span><span class="params">(String prompt, String str)</span>&#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">user_input</span> <span class="operator">=</span> JOptionPane.showInputDialog(prompt, str);</span><br><span class="line">        <span class="keyword">while</span>(user_input.trim().equals(<span class="string">&quot;&quot;</span>))&#123;</span><br><span class="line">            user_input = JOptionPane.showInputDialog(prompt, str);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> user_input.trim();</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>举个例子</p>
-<p>我们看到调用<code>prompt_and_validate_input</code>去获取用户的输入</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192335661.png" alt="image-20220519233553390"></p>
-<p>其它就不举例子了0.0，比较简单</p>
-<p><code>do_modify_request</code>对输出的文本进行处理</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">byte</span>[] do_modify_request(<span class="type">byte</span>[] request, <span class="type">int</span>[] selectedIndex, String modifiedString)&#123;</span><br><span class="line">        <span class="type">byte</span>[] modString = modifiedString.getBytes();</span><br><span class="line">        <span class="type">byte</span>[] newRequest = <span class="keyword">new</span> <span class="title class_">byte</span>[request.length + modifiedString.length() - (selectedIndex[<span class="number">1</span>]-selectedIndex[<span class="number">0</span>])];</span><br><span class="line">        System.arraycopy(request, <span class="number">0</span>, newRequest, <span class="number">0</span>, selectedIndex[<span class="number">0</span>]);</span><br><span class="line">        System.arraycopy(modString, <span class="number">0</span>, newRequest, selectedIndex[<span class="number">0</span>], modString.length);</span><br><span class="line">        System.arraycopy(request, selectedIndex[<span class="number">1</span>], newRequest, selectedIndex[<span class="number">0</span>]+modString.length, request.length-selectedIndex[<span class="number">1</span>]);</span><br><span class="line">        <span class="keyword">return</span> newRequest;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>show_message</code>打印</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">show_message</span><span class="params">(String str1, String str2)</span>&#123;</span><br><span class="line">    JOptionPane.showMessageDialog(<span class="literal">null</span>, str1, str2, <span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="魔改"><a href="#魔改" class="headerlink" title="魔改"></a>魔改</h3><p>然后魔改就比较简单了，比如你想增加自己的webshell</p>
-<p>可以先添加菜单</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192337234.png" alt="image-20220519233748585"></p>
-<p>然后可以调用<code>do_WebShell</code>去对传进去的action进行处理，比如这里我们直接添加了behinder的马，然后直接在switch对action进行判断即可，然后照样子把冰蝎马base一些就可以了。注意不要有中文！</p>
-<p>如果想自己写一个菜单，那么直接在<code>BurpExtender.registerExtenderCallbacks</code>注册一个即可，比如我这里的<code>HttpHeader</code></p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192341950.png" alt="image-20220519234155611"></p>
-<p>然后创建文件，主要两个点，比较简单，就不继续了</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192343359.png" alt="image-20220519234335585"></p>
-<p>最后效果</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192347512.png" alt="image-20220519234714408"></p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192348942.png" alt="image-20220519234813857"></p>
-<h2 id="burp插件调试"><a href="#burp插件调试" class="headerlink" title="burp插件调试"></a>burp插件调试</h2><p>首先确保IDEA和burp插件代码的一致性</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192236538.png" alt="image-20220519223635438"></p>
-<p>添加远程</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192237479.png" alt="image-20220519223703402"></p>
-<p>配置</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192238723.png" alt="image-20220519223833622"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</span><br></pre></td></tr></table></figure>
-
-<p>可以看到会出现debug</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192238666.png" alt="image-20220519223854550"></p>
-<p>然后就是关于burp的配置</p>
-<p>需要在启动时加上</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</span><br></pre></td></tr></table></figure>
-
-<p>由于一般大家都是用的破解，比如我原来的命令是这样的</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;./jre\bin\javaw.exe&quot; -Xmx8G -XX:-UseParallelGC -noverify -javaagent:BurpSuiteLoader_v2022.2.2.jar -Dfile.encoding=utf-8 -jar burpsuite_pro_v2022.2.2.jar</span><br></pre></td></tr></table></figure>
-
-<p>这个时候在后面加上即可</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</span><br></pre></td></tr></table></figure>
-
-<p>下载jre的网站</p>
-<p><a target="_blank" rel="noopener" href="http://hg.openjdk.java.net/">http://hg.openjdk.java.net/</a></p>
-<p><a target="_blank" rel="noopener" href="https://jdk.java.net/archive/">https://jdk.java.net/archive/</a></p>
-<p>报了这样的错误，发现是没有下载dll文件，百度下载了个jdwp.dll放到jdk的bin目录</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205192252231.png" alt="image-20220519225249179"></p>
-<p>还有就是注意jdk版本的一致性</p>
-<p>最后命令是</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;\java\jdk-14.0.2\bin\java.exe&quot; -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005  -Xmx8G -XX:-UseParallelGC -noverify -javaagent:BurpSuiteLoader_v2022.2.2.jar -Dfile.encoding=utf-8 -jar burpsuite_pro_v2022.2.2.jar</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200035162.png" alt="image-20220520003500992"></p>
-<p>这个时候我假设在webshell的php下断点</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200037353.png" alt="image-20220520003724248"></p>
-<p>然后在burp下点击hackbar的php选项</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200039124.png" alt="image-20220520003931052"></p>
-<p>可以看到已经成功的断在了我们想要的地方</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200038584.png" alt="image-20220520003829133"></p>
-<p>最终得到想要的结果</p>
-<p><img src="https://adsry.oss-cn-beijing.aliyuncs.com/img/202205200039018.png" alt="image-20220520003907882"></p>
-<p>参考：</p>
-<p><a target="_blank" rel="noopener" href="http://www.code2sec.com/burpsuitecha-jian-kai-fa-tips.html">http://www.code2sec.com/burpsuitecha-jian-kai-fa-tips.html</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/huahao1989/article/details/107746738">https://blog.csdn.net/huahao1989/article/details/107746738</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.netspi.com/blog/technical/web-application-penetration-testing/debugging-burp-extensions/">https://www.netspi.com/blog/technical/web-application-penetration-testing/debugging-burp-extensions/</a></p>
-<p><a target="_blank" rel="noopener" href="https://portswigger.net/burp/extender/">https://portswigger.net/burp/extender/</a></p>
-<p><a target="_blank" rel="noopener" href="http://www.code2sec.com/burpsuitecha-jian-kai-fa-tips.html">http://www.code2sec.com/burpsuitecha-jian-kai-fa-tips.html</a></p>
-
+<h2 id="JNDI-Bypass"><a href="#JNDI-Bypass" class="headerlink" title="JNDI Bypass"></a>JNDI Bypass</h2>
     </div>
 
     
@@ -378,8 +254,7 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" rel="tag"># 渗透测试</a>
-              <a href="/tags/burp/" rel="tag"># burp</a>
+              <a href="/tags/web%E5%AE%89%E5%85%A8/" rel="tag"># web安全</a>
           </div>
 
         
